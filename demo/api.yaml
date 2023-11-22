@@ -1,0 +1,9 @@
+kind: APIServiceExportRequest
+apiVersion: kube-bind.io/v1alpha1
+metadata:
+  name: export
+spec:
+  resources:
+    - group: "provisioning.cattle.io"
+      resource: "clusters"
+

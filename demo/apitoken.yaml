@@ -1,0 +1,8 @@
+kind: APIServiceExportRequest
+apiVersion: kube-bind.io/v1alpha1
+metadata:
+  name: export-token
+spec:
+  resources:
+    - group: "management.cattle.io"
+      resource: "clusterregistrationtokens"
